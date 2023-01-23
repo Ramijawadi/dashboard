@@ -1,0 +1,10 @@
+ {
+ 
+ "Candidats":[
+  { "number": 120, "name": "Candidatures" },
+  { "number": 64, "name": "Nouveaux Profils" },
+  { "number": 64, "name": "Dossiers Interessantes" },
+  { "number": 535, "name": "Dossiers Lavoris" }
+]
+
+ }
