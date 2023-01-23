@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 /**
 =========================================================
 * Material Dashboard 2 React - v2.1.0
@@ -28,14 +30,24 @@ import Footer from "examples/Footer";
 
 // Dashboard components
 
-function DashboardTest() {
+function DashboardTest(props) {
   return (
     <DashboardLayout>
       <DashboardNavbar />
-      <MDBox py={3}>
+
+      <div className="container">
+        <div className="content">
+          <h1>{props.user.num}</h1>
+          <h1>{props.user.name}</h1>
+        </div>
+      </div>
+
+      {/* <MDBox py={3}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={3}>
             <MDBox mb={1.5} />
+
+
           </Grid>
           <Grid item xs={12} md={6} lg={3}>
             <MDBox mb={1.5} />
@@ -66,7 +78,8 @@ function DashboardTest() {
             <Grid item xs={12} md={6} lg={4} />
           </Grid>
         </MDBox>
-      </MDBox>
+      </MDBox> */}
+
       <Footer />
     </DashboardLayout>
   );

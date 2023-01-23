@@ -1,10 +1,31 @@
- {
- 
- "Candidats":[
-  { "number": 120, "name": "Candidatures" },
-  { "number": 64, "name": "Nouveaux Profils" },
-  { "number": 64, "name": "Dossiers Interessantes" },
-  { "number": 535, "name": "Dossiers Lavoris" }
-]
+[
+    
+  {
 
- }
+    "id": 1,
+    "num" :120,
+    "name": "Candidatures"
+    
+  },
+  {
+
+      "id": 1,
+      "num" :64,
+      "name": "Nouveaux Profils"
+      
+      
+    },
+    {
+      "id": 2,
+      "num":64,
+      "name": "Dossiers intèressants"
+     
+    }
+    ,{
+      "id": 3,
+      "num":535,
+      "name": "Dossiers Favoris"
+    }
+   
+    
+  ]
